@@ -1,0 +1,117 @@
+{
+  "watchlist_name": "2026_trading_watchlist",
+  "last_updated": "2026-02-07",
+  "total_symbols": 30,
+  "industries": {
+    "technology": {
+      "description": "Software, hardware, and cloud computing companies",
+      "symbols": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "AMD"
+      ]
+    },
+    "semiconductors": {
+      "description": "Chip manufacturers and equipment suppliers",
+      "symbols": [
+        "TSM",
+        "ASML",
+        "INTC",
+        "QCOM",
+        "AVGO"
+      ]
+    },
+    "finance": {
+      "description": "Banks, payment processors, and financial services",
+      "symbols": [
+        "JPM",
+        "BAC",
+        "V",
+        "MA",
+        "GS"
+      ]
+    },
+    "healthcare": {
+      "description": "Pharmaceuticals, biotech, and medical devices",
+      "symbols": [
+        "UNH",
+        "JNJ",
+        "LLY",
+        "ABBV",
+        "TMO"
+      ]
+    },
+    "consumer": {
+      "description": "Retail, e-commerce, and consumer goods",
+      "symbols": [
+        "AMZN",
+        "WMT",
+        "COST",
+        "HD",
+        "NKE"
+      ]
+    },
+    "energy": {
+      "description": "Oil, gas, and renewable energy",
+      "symbols": [
+        "XOM",
+        "CVX",
+        "NEE"
+      ]
+    },
+    "automotive": {
+      "description": "Traditional automakers and EV manufacturers",
+      "symbols": [
+        "TSLA",
+        "F"
+      ]
+    },
+    "defense": {
+      "description": "Aerospace and defense contractors",
+      "symbols": [
+        "BA",
+        "LMT",
+        "RTX"
+      ]
+    }
+  },
+  "all_symbols": [
+    "AAPL",
+    "MSFT",
+    "GOOGL",
+    "META",
+    "NVDA",
+    "AMD",
+    "TSM",
+    "ASML",
+    "INTC",
+    "QCOM",
+    "AVGO",
+    "JPM",
+    "BAC",
+    "V",
+    "MA",
+    "GS",
+    "UNH",
+    "JNJ",
+    "LLY",
+    "ABBV",
+    "TMO",
+    "AMZN",
+    "WMT",
+    "COST",
+    "HD",
+    "NKE",
+    "XOM",
+    "CVX",
+    "NEE",
+    "TSLA",
+    "F",
+    "BA",
+    "LMT",
+    "RTX"
+  ]
+}
