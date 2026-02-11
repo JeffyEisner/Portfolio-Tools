@@ -150,4 +150,11 @@ Consider a US speculator who in February thinks that the British poind will stre
 
 The Speculator could purchase £250,000 on the spot market in the hopes the sterling can be sold later at a higher price, while keeping the sterling in an interest bearing account.
 
-Another option is to take a long position several Futures contracts.
+Another option is to take a long position (we'll use 4) several Futures contracts.
+
+
+|---------+------+---------------+----+-----+------------|
+| Okay    | This | Is            | A  | New | Table      |
+|---------+------+---------------+----+-----+------------|
+| Testing | This | I will commit | to | git | hubberssss |
+|---------+------+---------------+----+-----+------------|
