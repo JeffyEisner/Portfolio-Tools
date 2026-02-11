@@ -23,6 +23,7 @@ Speculators soon became interested in the contract and found trading the contrac
 The Chicago Board Options Exchange started trading call options contracts on 16 stocks in 19673. Options had traded prior to 1973, but the CBOE succeeded in creating an orderly market. Put contracts started trading on the exchange in 1977
 
 #### Electronic Markets
+
 Traditional derivative exchanges used the open outcry system. This involves traders physically meeting on the floor of the exchange, shouting, and using hand signals to indicate the trades they would like to carry out.
 
 This has been rapidly outphased by electronic trading.
@@ -32,6 +33,7 @@ Electroinc Trading involves manually inputting desired values for given trades v
 This itself is undergoing a renaissance with the development of algorithmic trading, where computer programs are used to automatically generate and execute trades.
 
 ### 1.2 Over The Counter Markets
+
 Not all trading of derivatives is done on exchanges. OTC Markets are important alternatives to exchanges, and measured in terms of the total volume of trading, has become much larger than exchange traded markets.
 
 These are telephone and computer linked networks of dealers. Trades are done over the phone/computer between financial institutions and their clients . 
@@ -43,10 +45,12 @@ Key Advantage: Terms of a contract do not have to be specified by an exchange. P
 Key Disadvantage: Usually some credit risk is involved.
 
 #### Market Size
+
 Both OTC and Exchange Traded Market for derivatives are huge.
 Though statistics are hard to come by, the Bank for International Settlements (BIS) estimates that the notional amount of outstanding OTC derivatives was $693 trillion at the end of 2011. The notional amount of outstanding exchange traded derivatives was $70 trillion at the end of 2011. Making OTC markets roughly ~10x larger then exchange traded markets, and is expected to grow at a faster rate.
 
 ### 1.3 Forward Contracts 
+
 A new simple derivative is a forward contract. It is an agreement to buy or sell an asset at a certain future time for a certain price. It can be contrasted with a spot contract, which is an agreement to buy or sell an asset today. A forward contract is traded in the over the counter market, usually between two financial institutions, or one of their clients.
 
 In the contract, one party assumes a long position and agrees to buy the underlying asset on a certain specified future date for a certain specified price.
@@ -55,6 +59,7 @@ The other party assumes a short position and agrees to sell the asset on the sam
 Forward contracts can be used to hedge currency risk.
 
 #### Payoffs from Forward Contracts
+
 Payoffs from forward contracts 
 
 *Spot and forward quotes for the USD/GBP exchange rate, May 24, 2010 (USD/GBP)*
@@ -94,4 +99,55 @@ The price in the contract is known as the *exercise/strike price*
 The Date in the contract is known as the expiration date, or maturity.
 It should be emphasized that an option is a right, not an obligation. The holder of the option can choose to exercise the option or not. If the holder does not exercise the option, it expires worthless.
 
+**When reading a Call/Put option, the Bid/Offer is the price of the option contract, not the price of the underlying asset. The price of the underlying asset is given in the contract as the strike price.**
 
+Options contracts are typically executed at 100 shares of the underlying stock, so the price of the option contract is 100 times the price of the option itself. For example, if a call option on a stock has a bid price of $0.50 and an offer price of $0.60, then the bid price for the contract is $50 and the offer price for the contract is $60.
+
+There are 4 types of participants in options markets:
+- Buyers of call options
+- Sellers of call options
+- Buyers of put options
+- Sellers of put options
+
+Buyers are referred to as being long the option, while sellers are referred to as being short the option.
+
+### 1.6 Types of Traders
+Three broad categories of traders in derivative markets can be identified: Hedgers, Speculators, and Arbitrageurs.
+
+- Hedgers
+Hedgers use derivatives to reduce the risk they face from future movements in a market variable.
+
+- Speculators
+Use them to bet on the future direction of a market variable
+
+- Arbitrageurs
+Take offsetting positions in two or more instruments to lock in a profit.
+
+### 1.7 Hedgers
+#### Hedging Using Forward Contracts
+Suppose that an Import Company in the US knows that it will have to pay £10,000,000 on a Date August 24th.
+The import Company can hedge the risk of operating in a foreign currency by buying £ at an advanced rate.
+In the event of devaluation of the US dollar, the import company will be protected from the increase in the cost of the £10,000,000. In the event of an appreciation of the US dollar, the import company will not benefit from the decrease in the cost of the £10,000,000, but it will not be worse off than if it had not hedged.
+
+Or the case of an Export Company Exporting goods to the United Kingdom, knows that it will recieve £30,000,000 in 3 months. ExportCo can hedge it's foreign exchange risk by selling £30,000,000 in the 3 month forward market at an exchange rate of 1.4410.  This would have the effect of locking the trade in at $43,230,000.
+
+#### Hedging Using Options
+Options can also be used for Hedging.
+
+Consider aninvestor who in May of a particular year owns 1,000 shares of a stock. The share price is $28/Share. The Investor, concerned about a possible share price decline in the next 2 months, wants protection. He could buy ten July put option contracts on the stock, with a strike price of $27.50. If the quoted option price is $1, then each option contract would cost 100 x $1 = $100. The total cost of the stategy would be 10 * $100 = $1,000.
+The strategy costs $1,000, but gurantees that the shares can be sold for at least $27.50 per share during the life of the option. If the price falls below, the option will be exercised, so that $27,500 is the minimum realized for the holding. When the cost of the option is taken into account, the amount realized is $26,500.
+
+#### Comparison
+There is a fundamental difference between the use of forward contracts and options for hedging. Forward contracts are designed to neutralize risk by fixing the price that the hedge will pay or receive for the underlying asset. Options contracts, by contrast, provide insurance. They offer a way for investors to protect themselves against adverse price movements in the future while still allowing them to benefit from favorable price movements.
+
+Unlike forwards, options involve the payment of an up-front fee.
+
+### 1.8 Speculators
+Wheras hedger want to avoid exposure to adverse movements in the price of an asset, speculators want to profit from such movements. Speculators are willing to take on risk in the hope of making a profit. They are the opposite of hedgers, who want to avoid risk.
+
+#### Speculation Using Futures
+Consider a US speculator who in February thinks that the British poind will strengthn relative to the USD over the next 2 months, and is prepared to back that hunch with £250,000.
+
+The Speculator could purchase £250,000 on the spot market in the hopes the sterling can be sold later at a higher price, while keeping the sterling in an interest bearing account.
+
+Another option is to take a long position several Futures contracts.
