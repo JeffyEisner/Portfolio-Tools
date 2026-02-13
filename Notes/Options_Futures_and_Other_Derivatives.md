@@ -153,8 +153,3 @@ The Speculator could purchase £250,000 on the spot market in the hopes the ster
 Another option is to take a long position (we'll use 4) several Futures contracts.
 
 
-|---------+------+---------------+----+-----+------------|
-| Okay    | This | Is            | A  | New | Table      |
-|---------+------+---------------+----+-----+------------|
-| Testing | This | I will commit | to | git | hubberssss |
-|---------+------+---------------+----+-----+------------|
